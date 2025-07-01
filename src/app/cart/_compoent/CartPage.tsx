@@ -12,11 +12,10 @@ const Cart = () => {
   const dispatch = useDispatch();
   const [agreeToTerms, setAgreeToTerms] = useState(false);
   const [coupon,setaddCoupon]=useState('')
-  console.log(cart, "cart");
   return (
-    <div className="mx-[80px]  flex gap-[28px]">
+    <div className="lg:mx-[80px]  lg:flex gap-[28px]">
     <div className="bg-white p-[20px] rounded-[8px] flex-1">
-        <div className="flex justify-between">
+        <div className="lg:flex justify-between">
         <h1 className="text-2xl font-bold mb-6">
           My Cart ({cart?.cart?.length})
         </h1>
@@ -142,7 +141,7 @@ const Cart = () => {
 
 
         {/* Order Summary */}
-        <div className=" w-[418px] bg-white">
+        <div className=" lg:w-[418px] bg-white">
           <div className="border rounded-lg p-4 sticky top-4">
             <h2 className="text-[24px] font-[500] text-[#475569]  mb-[16px]">
               Order summary
@@ -179,6 +178,7 @@ const Cart = () => {
                   />
                   <button onClick={()=>{
                     dispatch(addCoupon({coupon:coupon}))
+                    setaddCoupon('')
                     message.success('Coupon added successfully')
                   }} className="bg-[#00B795] absolute right-0 top-0 h-[100%]  text-[16px] w-[82px] text-white">
                     Apply
@@ -202,6 +202,8 @@ const Cart = () => {
               disabled={!agreeToTerms}
               onClick={()=>{
                 message.success('Order placed successfully..')
+                dispatch(clearCart())
+                dispatch(addCoupon({coupon:''}))
                 console.log({cart:cart?.cart,coupon:cart?.coupon});
               }}
               className={`w-full mt-6 py-3 rounded-lg font-medium ${

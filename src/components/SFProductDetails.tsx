@@ -1,16 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import Image from "next/image";
-import ProductImages from "../assets/productimage.png";
-import ThumbnailImage from "../assets/thumbnail.jpg";
-import AvailAblcolor1 from "../assets/available-color/image1.png";
-import AvailAblcolor2 from "../assets/available-color/image2.png";
-import AvailAblcolor3 from "../assets/available-color/image3.png";
-import AvailAblcolor4 from "../assets/available-color/image4.png";
 import IconI from "../assets/icon1.png";
 import Icon2 from "../assets/icon2.png";
 import PGIcon from "../assets/P&G.png";
-import RisingStar from "../assets/risingstar.png";
+import RisingStar from "../assets/risingstartwo.png";
 import contentimg from "../assets/content.png";
 import verified from "../assets/verified.png";
 import { useGetProductByIdQuery } from "@/redux/api/productApi";
@@ -57,20 +51,20 @@ const ProductPage = () => {
     return stars;
   };
   return (
-    <div className="bg-[#FFFFFF]  h-[601px]  py-8 mb-[15px]">
+    <div className="bg-[#FFFFFF]  lg:h-[601px]  py-8 mb-[15px]">
       <main className=" mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white  rounded-lg shadow-sm">
-          <div className="flex gap-[40px]">
+          <div className="lg:flex gap-[40px]">
             {/* Left Column: Product Image Gallery */}
-            <div className="flex flex-col ">
-              <div className=" h-[380px] w-[380px]   rounded-lg  ">
+            <div className="lg:flex flex-col ">
+              <div className=" min-h-[380px] lg:w-[380px]   rounded-lg  ">
                 <img
                   src={selectThumbnail || product?.thumbnail}
                   alt="Men's Casual Shirt"
                   className="w-[100%] h-full  object-contain rounded-md"
                 />
               </div>
-              <div className="flex  mt-4 gap-[8px]">
+              <div className="lg:flex  mt-4 gap-[8px]">
                 {data?.data?.images?.map((item:any, i:any) => (
                   <div 
                    onClick={()=>setSelectedThumbnail(item?.url)}
@@ -88,8 +82,8 @@ const ProductPage = () => {
             </div>
 
             {/* Right Column: Product Details */}
-            <div className="flex gap-[40px] flex-1">
-              <div className="w-[507px]">
+            <div className="lg:flex gap-[40px] flex-1">
+              <div className="lg:w-[507px]">
                 {/* Product Info */}
                 <div>
                   <h1 className="text-[20px] font-[500]  text-[#0F172A]">
@@ -192,7 +186,7 @@ const ProductPage = () => {
                 </div>
 
                 {/* Quantity & Add to Cart */}
-                <div className="flex items-center mt-6">
+                <div className="lg:flex items-center mt-6">
                   <div className="flex flex-col ">
                     <span className="text-[16px] font-medium text-gray-700 py-[11px]">
                       Quantity
@@ -274,7 +268,7 @@ const ProductPage = () => {
                 <div className="border border-gray-200 rounded-lg px-[20px] py-[20px]">
                   <h3 className="text-[#475569]  text-[12px] mb-2">Sold by</h3>
                   <div className="flex items-center justify-between mb-[16px] gap-[9px]">
-                    <div className="flex items-center gap-[9px]">
+                    <div className="flex items-center gap-[9px] bg-white">
                       <Image src={PGIcon} alt="" />
                       <div>
                         <div className="flex items-center gap-[5px] mb-[8px]">

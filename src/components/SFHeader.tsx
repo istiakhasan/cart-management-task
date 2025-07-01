@@ -3,7 +3,8 @@ import { useGetCategoriesQuery } from "@/redux/api/categoryApi";
 import { RootState } from "@/redux/store";
 import Link from "next/link";
 import { useSelector } from "react-redux";
-
+import Falcon from '../assets/falcon.png'
+import Image from "next/image";
 // components/Header.tsx
 const SFHeader = () => {
   const {data,isLoading}=useGetCategoriesQuery(undefined)
@@ -15,13 +16,13 @@ const SFHeader = () => {
   return (
     <header className="bg-[#0D1321] h-[80px] flex items-center justify-between px-6 text-white">
       {/* Logo */}
-      <div className="flex items-center space-x-2">
-        <i className="ri-ghost-line text-2xl"></i>
+      <Link href={'/'} className="flex items-center space-x-2">
+        <Image alt="" src={Falcon} />
         <span className="font-bold text-xl">FALCON</span>
-      </div>
+      </Link>
 
       {/* Search Bar */}
-      <div className="flex-1 max-w-[600px] mx-6">
+      <div className="flex-1 hidden md:block max-w-[600px] mx-6">
         <div className="flex overflow-hidden rounded">
           <input
             type="text"

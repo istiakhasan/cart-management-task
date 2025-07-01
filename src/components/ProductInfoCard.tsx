@@ -52,10 +52,10 @@ const ProductSpecification = () => {
 
 const ProductInfo = () => {
   return (
-    <div className="px-[80px] pt-[15px] bg-[#F1F5F9]">
-      <div className='max-w-[955px]'>
+    <div className="lg:px-[80px] px-[10px] pt-[15px] bg-[#F1F5F9]">
+      <div className='lg:max-w-[955px]'>
         <ProductDescription />
-      <ProductSpecification />
+        <ProductSpecification />
       </div>
     </div>
   );
