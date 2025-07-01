@@ -1,6 +1,6 @@
 // import { configureStore } from '@reduxjs/toolkit';
 // import { baseApi } from './api/baseApi';
-import { reducer } from './rootReducer';
+// import { reducer } from './rootReducer';
 
 // export const store = configureStore({
 //   reducer,
@@ -13,29 +13,33 @@ import { reducer } from './rootReducer';
 
 
 
-import { combineReducers, configureStore } from '@reduxjs/toolkit'
-import { baseApi } from './api/baseApi'
-import { persistReducer, persistStore } from 'redux-persist';
-import storage from './customStorage';
-
-
-
+import { configureStore, combineReducers } from "@reduxjs/toolkit";
+import { persistStore, persistReducer } from "redux-persist";
+import storage from "redux-persist/lib/storage";
+import thunk from "redux-thunk";
+import { baseApi } from "./api/baseApi";
+import { reducer } from "./rootReducer";
 
 const persistConfig = {
   key: "root",
-  storage:storage,
-  //  blacklist: ['querySlice']
+  storage,
+  whitelist: ["cart"], // ✅ only cart, NOT baseApi.reducerPath
 };
+
+
 const persistedReducer = persistReducer(persistConfig, reducer);
 
 export const store = configureStore({
   reducer: persistedReducer,
   middleware: (getDefaultMiddleware) =>
-  getDefaultMiddleware({ serializableCheck: false }).concat(baseApi.middleware),
-})
+    getDefaultMiddleware({
+      serializableCheck: false, 
+    }).concat(baseApi.middleware),
+});
+
+export const persistor = persistStore(store);
 
 export type RootState = ReturnType<typeof store.getState>;
 export type AppDispatch = typeof store.dispatch;
 
 
-export  const  persistor = persistStore(store);

@@ -8,7 +8,7 @@ import { getUserInfo } from "@/service/authService";
 import { redirect } from "next/navigation";
 export default function Home() {
   return (
-    <>
+    <div>
       <SFHeader />
       <SubHeader />
       <SbBreadcam>
@@ -20,6 +20,6 @@ export default function Home() {
       </SbBreadcam>
       <ProductPage />
       <ProductInfo />
-    </>
+    </div>
   );
 }

@@ -11,7 +11,7 @@ const SFHeader = () => {
     if(isLoading){
       return
     }
-    console.log(data,"category ndata");
+  
   return (
     <header className="bg-[#0D1321] h-[80px] flex items-center justify-between px-6 text-white">
       {/* Logo */}

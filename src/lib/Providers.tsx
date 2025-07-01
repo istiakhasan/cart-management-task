@@ -1,31 +1,16 @@
-"use client"
-import { useEffect, useState } from 'react';
+"use client";
+
+import { ReactNode } from "react";
 import { Provider } from "react-redux";
-import { PersistGate } from 'redux-persist/integration/react';
-import { persistor, store } from "@/redux/store";
-import StyledComponentsRegistry from "./AntdRegistry";
-import { Suspense } from "react";
+import { PersistGate } from "redux-persist/integration/react";
+import { store, persistor } from "@/redux/store";
 
-const Providers = ({ children }: { children: React.ReactNode }) => {
-  const [isClient, setIsClient] = useState(false);
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
-
+export default function Providers({ children }: { children: ReactNode }) {
   return (
     <Provider store={store}>
-      {isClient ? (
-        <PersistGate persistor={persistor}>
-          <Suspense fallback={<h1>Loading</h1>}>
-            <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
-          </Suspense>
-        </PersistGate>
-      ) : (
-        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
-      )}
+      <PersistGate loading={null} persistor={persistor}>
+        {children}
+      </PersistGate>
     </Provider>
   );
-};
-
-export default Providers;
+}

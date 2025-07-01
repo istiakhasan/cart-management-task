@@ -7,6 +7,7 @@ interface CartState {
   wishList: any[];
   total: number;
   shipping: number;
+  coupon: string;
 }
 
 const initialState: CartState = {
@@ -14,6 +15,7 @@ const initialState: CartState = {
   wishList: [],
   total: 0,
   shipping: 0,
+  coupon: "",
 };
 
 const calculateShipping = (subtotal: number): number => {
@@ -67,28 +69,24 @@ export const cartSlice = createSlice({
       updateTotalAndShipping(state);
     },
 
-decrementQuantity: (
-  state,
-  { payload }: PayloadAction<{ index: number }>
-) => {
-  const currentItem = state.cart[payload.index];
+    decrementQuantity: (
+      state,
+      { payload }: PayloadAction<{ index: number }>
+    ) => {
+      const currentItem = state.cart[payload.index];
 
-  if ((currentItem.quantity || 1) - 1 === 0) {
-    // ✅ Delete the item directly by index
-    state.cart.splice(payload.index, 1);
-  } else {
-    // ✅ Just decrease the quantity
-    currentItem.quantity = (currentItem.quantity || 1) - 1;
-  }
-
-  updateTotalAndShipping(state);
-},
-    removeToCart: (state, { payload }: PayloadAction<{ id: string }>) => {
-      const itemToRemove = state.cart.find((item) => item.id === payload.id);
-      if (itemToRemove) {
-        state.cart = state.cart.filter((item) => item.id !== payload.id);
-        updateTotalAndShipping(state);
+      if ((currentItem.quantity || 1) - 1 === 0) {
+        state.cart.splice(payload.index, 1);
       } else {
+        currentItem.quantity = (currentItem.quantity || 1) - 1;
+      }
+
+      updateTotalAndShipping(state);
+    },
+    removeToCart: (state, { payload }: PayloadAction<{ index: number }>) => {
+      if (payload.index >= 0 && payload.index < state.cart.length) {
+        state.cart.splice(payload.index, 1);
+        updateTotalAndShipping(state);
       }
     },
 
@@ -96,6 +94,20 @@ decrementQuantity: (
       state.cart = [];
       state.total = 0;
       state.shipping = 0;
+    },
+    selectAll: (state, { payload }) => {
+      state.cart = state.cart.map((item: any) => {
+        return {
+          ...item,
+          select: payload?.select,
+        };
+      });
+    },
+    selectById: (state, { payload }) => {
+      state.cart[payload?.index].select = payload?.select;
+    },
+    addCoupon: (state, { payload }) => {
+      state.coupon = payload?.coupon;
     },
   },
 });
@@ -106,6 +118,9 @@ export const {
   decrementQuantity,
   removeToCart,
   clearCart,
+  selectAll,
+  selectById,
+  addCoupon,
 } = cartSlice.actions;
 
 export default cartSlice.reducer;
