@@ -13,6 +13,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "@/redux/slice/cartSlice";
 import { RootState } from "@/redux/store";
 import { message } from "antd";
+import SingleProductJson from '../assets/productData.json'
 const ProductPage = () => {
   const { data, isLoading } = useGetProductByIdQuery({
     id: "iphone-15-plus",
@@ -31,8 +32,8 @@ const ProductPage = () => {
     return;
   }
 
-  const product: any = data?.data;
-  const rating = product?.shop_rating || 0; // example: 3.5
+  const product: any = data?.data || SingleProductJson?.data;
+  const rating = product?.shop_rating  || 0; // example: 3.5
   const totalStars = 5;
 
   const getStars = () => {
@@ -50,6 +51,8 @@ const ProductPage = () => {
     }
     return stars;
   };
+
+ 
   return (
     <div className="bg-[#FFFFFF]  lg:h-[601px]  py-8 mb-[15px]">
       <main className=" mx-auto px-4 sm:px-6 lg:px-8">
@@ -65,7 +68,7 @@ const ProductPage = () => {
                 />
               </div>
               <div className="lg:flex  mt-4 gap-[8px]">
-                {data?.data?.images?.map((item:any, i:any) => (
+                {(false?data?.data?.images : SingleProductJson?.data?.images)?.map((item:any, i:any) => (
                   <div 
                    onClick={()=>setSelectedThumbnail(item?.url)}
                     key={i}
@@ -103,7 +106,7 @@ const ProductPage = () => {
                       href="#"
                       className="text-sm text-gray-500 hover:underline"
                     >
-                      2,254 Ratings
+                      {product?.shop_rating} Ratings
                     </a>
                     <i className="ri-arrow-down-s-line mx-[5px]"></i>
                     <div className="flex items-center ml-auto text-xl">

@@ -5,17 +5,12 @@ import Link from "next/link";
 import { useSelector } from "react-redux";
 import Falcon from '../assets/falcon.png'
 import Image from "next/image";
-// components/Header.tsx
 const SFHeader = () => {
-  const {data,isLoading}=useGetCategoriesQuery(undefined)
     const cart:any=useSelector((abc:RootState)=>abc?.cart)
-    if(isLoading){
-      return
-    }
+
   
   return (
     <header className="bg-[#0D1321] h-[80px] flex items-center justify-between px-6 text-white">
-      {/* Logo */}
       <Link href={'/'} className="flex items-center space-x-2">
         <Image alt="" src={Falcon} />
         <span className="font-bold text-xl">FALCON</span>

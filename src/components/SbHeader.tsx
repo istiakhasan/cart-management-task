@@ -5,6 +5,7 @@ import TrachOrder from '../assets/trackOrder.png'
 import HelpCustoemr from '../assets/help.png'
 import HelpUs from '../assets/helpUs.png'
 import Image from "next/image";
+import Categorydata from '../assets/category.json'
 const SubHeader = () => {
   const { data, isLoading } = useGetCategoriesQuery(undefined);
   const [active,setActive]=useState(false)
@@ -23,13 +24,15 @@ const SubHeader = () => {
          {active && <span className="inline-block max-h-500 overflow-auto w-[300px] p-[20px] bg-white shadow-xl z-50 absolute left-0 top-[110%]">
           
           {
-            data?.data?.map((item:any)=>(
+           false ? data?.data?.map((item:any)=>(
+              <span className="block text-start font-[400] border-b-[1px] border-b-gray-300" key={item?.id}>{item?.name}</span>
+            )) :Categorydata?.map((item:any)=>(
               <span className="block text-start font-[400] border-b-[1px] border-b-gray-300" key={item?.id}>{item?.name}</span>
             ))
           }
           </span>}
         </button>
-        {data?.data?.slice(0,4)?.map((item: any) => (
+        {Categorydata?.slice(0,4)?.map((item: any) => (
           <span className="text-[14px] hidden lg:inline" key={item?.id}>{item?.name}</span>
         ))}
       </div>

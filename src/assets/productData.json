@@ -1,0 +1,1913 @@
+{ 
+
+  "message": "Product details fetched successfully",
+  "data": { 
+
+    "id": 4,
+    "name": "iPhone 15 Plus",
+    "slug": "iphone-15-plus",
+    "thumbnail": "http://157.230.240.97:8888/storage/media/20250625_191645_5acbfcac-03dc-46d2-bf3a-fe83845b28d3.jpg",
+    "images": [
+
+      { 
+
+        "url": "http://157.230.240.97:8888/storage/media/20250625_191645_10ff0555-d6ac-4e69-b449-6b337129e767.jpg"
+      
+ }
+    
+],
+    "description": "Sunt voluptate repud.",
+    "category_id": 5,
+    "specification": "",
+    "quantity": 300,
+    "rating_avg": 0,
+    "rating_count": 0,
+    "regular_price": "110000.00",
+    "discount_price": "105000.00",
+    "id_delivery_fee": null,
+    "od_delivery_fee": null,
+    "ed_delivery_fee": null,
+    "shop_id": 3,
+    "shop_name": "Packly Bangladesh",
+    "shop_slug": "packly-bangladesh",
+    "shop_image": null,
+    "is_followed": false,
+    "shop_rating": "0.00",
+    "merchant_name": null,
+    "is_variant": true,
+    "default_variant": "4JN6J",
+    "variations": [
+
+      { 
+
+        "id": 1,
+        "sku": "4JN6J",
+        "regular_price": "110000.00",
+        "discount_price": "105000.00",
+        "id_delivery_fee": "60.00",
+        "od_delivery_fee": "120.00",
+        "ed_delivery_fee": "150.00",
+        "quantity": 50,
+        "image": "http://157.230.240.97:8888/storage/media/20250625_191610_8408d9d2-d647-4c43-8e47-9de462039ae2.jpg",
+        "variant": [
+
+          { 
+
+            "id": 1,
+            "attribute_option_id": 67,
+            "attribute_id": 11,
+            "attribute_name": "Ram",
+            "attribute_option": "8GB"
+          
+ },
+          { 
+
+            "id": 2,
+            "attribute_option_id": 52,
+            "attribute_id": 9,
+            "attribute_name": "Color",
+            "attribute_option": "Blue"
+          
+ }
+        
+]
+      
+ },
+      { 
+
+        "id": 2,
+        "sku": "V3QDL",
+        "regular_price": "111000.00",
+        "discount_price": "106000.00",
+        "id_delivery_fee": "60.00",
+        "od_delivery_fee": "120.00",
+        "ed_delivery_fee": "150.00",
+        "quantity": 50,
+        "image": "http://157.230.240.97:8888/storage/media/20250625_191707_b3f2bd02-776d-4a7a-87c7-67cfa3ac1394.jpg",
+        "variant": [
+
+          { 
+
+            "id": 3,
+            "attribute_option_id": 67,
+            "attribute_id": 11,
+            "attribute_name": "Ram",
+            "attribute_option": "8GB"
+          
+ },
+          { 
+
+            "id": 4,
+            "attribute_option_id": 53,
+            "attribute_id": 9,
+            "attribute_name": "Color",
+            "attribute_option": "Green"
+          
+ }
+        
+]
+      
+ },
+      { 
+
+        "id": 3,
+        "sku": "WEQBC",
+        "regular_price": "112000.00",
+        "discount_price": "107000.00",
+        "id_delivery_fee": "60.00",
+        "od_delivery_fee": "120.00",
+        "ed_delivery_fee": "150.00",
+        "quantity": 50,
+        "image": "http://157.230.240.97:8888/storage/media/20250625_191707_2f5709a7-5d15-4f2f-9cce-f34bf4f05c76.jpg",
+        "variant": [
+
+          { 
+
+            "id": 5,
+            "attribute_option_id": 67,
+            "attribute_id": 11,
+            "attribute_name": "Ram",
+            "attribute_option": "8GB"
+          
+ },
+          { 
+
+            "id": 6,
+            "attribute_option_id": 54,
+            "attribute_id": 9,
+            "attribute_name": "Color",
+            "attribute_option": "Black"
+          
+ }
+        
+]
+      
+ },
+      { 
+
+        "id": 4,
+        "sku": "90CWB",
+        "regular_price": "115000.00",
+        "discount_price": "110000.00",
+        "id_delivery_fee": "60.00",
+        "od_delivery_fee": "120.00",
+        "ed_delivery_fee": "150.00",
+        "quantity": 50,
+        "image": "http://157.230.240.97:8888/storage/media/20250625_191707_c18c5e11-fbc2-4422-a0f8-c0fa63e3b20d.jpg",
+        "variant": [
+
+          { 
+
+            "id": 7,
+            "attribute_option_id": 68,
+            "attribute_id": 11,
+            "attribute_name": "Ram",
+            "attribute_option": "16GB"
+          
+ },
+          { 
+
+            "id": 8,
+            "attribute_option_id": 52,
+            "attribute_id": 9,
+            "attribute_name": "Color",
+            "attribute_option": "Blue"
+          
+ }
+        
+]
+      
+ },
+      { 
+
+        "id": 5,
+        "sku": "BEI3L",
+        "regular_price": "115000.00",
+        "discount_price": "114000.00",
+        "id_delivery_fee": "60.00",
+        "od_delivery_fee": "120.00",
+        "ed_delivery_fee": "150.00",
+        "quantity": 50,
+        "image": "http://157.230.240.97:8888/storage/media/20250625_191707_58defe74-87b0-4404-87a8-b024ea057d25.jpg",
+        "variant": [
+
+          { 
+
+            "id": 9,
+            "attribute_option_id": 68,
+            "attribute_id": 11,
+            "attribute_name": "Ram",
+            "attribute_option": "16GB"
+          
+ },
+          { 
+
+            "id": 10,
+            "attribute_option_id": 53,
+            "attribute_id": 9,
+            "attribute_name": "Color",
+            "attribute_option": "Green"
+          
+ }
+        
+]
+      
+ },
+      { 
+
+        "id": 6,
+        "sku": "Y56VD",
+        "regular_price": "115000.00",
+        "discount_price": "113000.00",
+        "id_delivery_fee": "60.00",
+        "od_delivery_fee": "120.00",
+        "ed_delivery_fee": "150.00",
+        "quantity": 50,
+        "image": "http://157.230.240.97:8888/storage/media/20250625_191707_9dbdc006-dd6c-4e61-a189-36ea169dfb58.jpg",
+        "variant": [
+
+          { 
+
+            "id": 11,
+            "attribute_option_id": 68,
+            "attribute_id": 11,
+            "attribute_name": "Ram",
+            "attribute_option": "16GB"
+          
+ },
+          { 
+
+            "id": 12,
+            "attribute_option_id": 54,
+            "attribute_id": 9,
+            "attribute_name": "Color",
+            "attribute_option": "Black"
+          
+ }
+        
+]
+      
+ }
+    
+],
+    "attributes": [
+
+      { 
+
+        "id": 9,
+        "name": "Color",
+        "value": "Blue",
+        "valueId": 52,
+        "image": "http://157.230.240.97:8888/storage/media/20250625_191610_8408d9d2-d647-4c43-8e47-9de462039ae2.jpg"
+      
+ },
+      { 
+
+        "id": 9,
+        "name": "Color",
+        "value": "Green",
+        "valueId": 53,
+        "image": "http://157.230.240.97:8888/storage/media/20250625_191707_b3f2bd02-776d-4a7a-87c7-67cfa3ac1394.jpg"
+      
+ },
+      { 
+
+        "id": 9,
+        "name": "Color",
+        "value": "Black",
+        "valueId": 54,
+        "image": "http://157.230.240.97:8888/storage/media/20250625_191707_2f5709a7-5d15-4f2f-9cce-f34bf4f05c76.jpg"
+      
+ },
+      { 
+
+        "id": 11,
+        "name": "Ram",
+        "value": "8GB",
+        "valueId": 67,
+        "image": "http://157.230.240.97:8888/storage/media/20250625_191610_8408d9d2-d647-4c43-8e47-9de462039ae2.jpg"
+      
+ },
+      { 
+
+        "id": 11,
+        "name": "Ram",
+        "value": "16GB",
+        "valueId": 68,
+        "image": "http://157.230.240.97:8888/storage/media/20250625_191707_c18c5e11-fbc2-4422-a0f8-c0fa63e3b20d.jpg"
+      
+ }
+    
+],
+    "badges": [
+
+      { 
+
+        "id": 1,
+        "name": "Free Shipping",
+        "type": 4,
+        "type_label": "Free Shipping"
+      
+ }
+    
+],
+    "badgeProductVariationsExclude": [
+],
+    "in_wishlist": false,
+    "review": { 
+
+      "rating": 0,
+      "count": 0,
+      "overview": { 
+
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      
+ }
+    
+ },
+    "question_count": 0
+  
+ },
+  "_debug": { 
+
+    "summary": { 
+
+      "total_queries": 72,
+      "total_time": "102.67ms",
+      "memory_usage": "0 B",
+      "peak_memory": "4 MB"
+    
+ },
+    "query_analysis": { 
+
+      "types": { 
+
+        "select": 72,
+        "insert": 0,
+        "update": 0,
+        "delete": 0,
+        "other": 0
+      
+ },
+      "tables": { 
+
+        "products": 2,
+        "shop_products": 1,
+        "product_details": 1,
+        "product_variations": 4,
+        "variation_attributes": 8,
+        "attributes": 14,
+        "attribute_options": 14,
+        "packly": 2,
+        "sso": 1,
+        "brands": 1,
+        "merchant_settings": 1,
+        "stock_inventories": 6,
+        "media": 8,
+        "reviews": 2,
+        "badges": 1,
+        "badge_products": 2,
+        "badge_product_variations": 1,
+        "product_comments": 1,
+        "shop_product_variations": 6
+      
+ },
+      "slowest_query": { 
+
+        "sql": "select `id`, `name`, `category_id`, `product_type_id`, `category_id`, `sub_category_id`, `sub_category_child_id`, `brand_id`, `slug`, `description`, `merchant_id`, `total_stock_qty` from `products` where `slug` = ? and `status` = ? and exists (select * from `shop_products` where `products`.`id` = `shop_products`.`product_id` and `status` = ? and `active_status` = ?) limit 1",
+        "time": 1.43,
+        "source": { 
+
+          "file": "/var/www/packly-admin-panel/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+         
+ }
+      
+ },
+      "average_time": 0.56,
+      "duplicate_queries": [
+
+        { 
+
+          "sql": "select * from `attributes` where `attributes`.`id` in (9, 11)",
+          "count": 2,
+          "locations": [
+
+            { 
+
+              "file": "/var/www/packly-admin-panel/app/Http/Middleware/ApiDebugbar.php",
+              "line": 39,
+              "method": "logQuery"
+             
+ },
+            { 
+
+              "file": "/var/www/packly-admin-panel/app/Http/Middleware/ApiDebugbar.php",
+              "line": 39,
+              "method": "logQuery"
+             
+ }
+          
+]
+        
+ },
+        { 
+
+          "sql": "select * from `attribute_options` where `attribute_options`.`id` in (52, 53, 54, 67, 68)",
+          "count": 2,
+          "locations": [
+
+            { 
+
+              "file": "/var/www/packly-admin-panel/app/Http/Middleware/ApiDebugbar.php",
+              "line": 39,
+              "method": "logQuery"
+             
+ },
+            { 
+
+              "file": "/var/www/packly-admin-panel/app/Http/Middleware/ApiDebugbar.php",
+              "line": 39,
+              "method": "logQuery"
+             
+ }
+          
+]
+        
+ },
+        { 
+
+          "sql": "select * from `stock_inventories` where `stock_inventories`.`product_variation_id` = ? and `stock_inventories`.`product_variation_id` is not null limit 1",
+          "count": 6,
+          "locations": [
+
+            { 
+
+              "file": "/var/www/packly-admin-panel/app/Http/Middleware/ApiDebugbar.php",
+              "line": 39,
+              "method": "logQuery"
+             
+ },
+            { 
+
+              "file": "/var/www/packly-admin-panel/app/Http/Middleware/ApiDebugbar.php",
+              "line": 39,
+              "method": "logQuery"
+             
+ },
+            { 
+
+              "file": "/var/www/packly-admin-panel/app/Http/Middleware/ApiDebugbar.php",
+              "line": 39,
+              "method": "logQuery"
+             
+ }
+          
+]
+        
+ },
+        { 
+
+          "sql": "select * from `media` where `media`.`model_type` = ? and `media`.`model_id` = ? and `media`.`model_id` is not null",
+          "count": 7,
+          "locations": [
+
+            { 
+
+              "file": "/var/www/packly-admin-panel/app/Http/Middleware/ApiDebugbar.php",
+              "line": 39,
+              "method": "logQuery"
+             
+ },
+            { 
+
+              "file": "/var/www/packly-admin-panel/app/Http/Middleware/ApiDebugbar.php",
+              "line": 39,
+              "method": "logQuery"
+             
+ },
+            { 
+
+              "file": "/var/www/packly-admin-panel/app/Http/Middleware/ApiDebugbar.php",
+              "line": 39,
+              "method": "logQuery"
+             
+ }
+          
+]
+        
+ },
+        { 
+
+          "sql": "select * from `shop_product_variations` where `shop_product_variations`.`product_variation_id` = ? and `shop_product_variations`.`product_variation_id` is not null limit 1",
+          "count": 6,
+          "locations": [
+
+            { 
+
+              "file": "/var/www/packly-admin-panel/app/Http/Middleware/ApiDebugbar.php",
+              "line": 39,
+              "method": "logQuery"
+             
+ },
+            { 
+
+              "file": "/var/www/packly-admin-panel/app/Http/Middleware/ApiDebugbar.php",
+              "line": 39,
+              "method": "logQuery"
+             
+ },
+            { 
+
+              "file": "/var/www/packly-admin-panel/app/Http/Middleware/ApiDebugbar.php",
+              "line": 39,
+              "method": "logQuery"
+             
+ }
+          
+]
+        
+ },
+        { 
+
+          "sql": "select * from `variation_attributes` where `variation_attributes`.`product_variation_id` = ? and `variation_attributes`.`product_variation_id` is not null",
+          "count": 6,
+          "locations": [
+
+            { 
+
+              "file": "/var/www/packly-admin-panel/app/Http/Middleware/ApiDebugbar.php",
+              "line": 39,
+              "method": "logQuery"
+             
+ },
+            { 
+
+              "file": "/var/www/packly-admin-panel/app/Http/Middleware/ApiDebugbar.php",
+              "line": 39,
+              "method": "logQuery"
+             
+ },
+            { 
+
+              "file": "/var/www/packly-admin-panel/app/Http/Middleware/ApiDebugbar.php",
+              "line": 39,
+              "method": "logQuery"
+             
+ }
+          
+]
+        
+ },
+        { 
+
+          "sql": "select * from `attributes` where `attributes`.`id` = ? limit 1",
+          "count": 12,
+          "locations": [
+
+            { 
+
+              "file": "/var/www/packly-admin-panel/app/Http/Middleware/ApiDebugbar.php",
+              "line": 39,
+              "method": "logQuery"
+             
+ },
+            { 
+
+              "file": "/var/www/packly-admin-panel/app/Http/Middleware/ApiDebugbar.php",
+              "line": 39,
+              "method": "logQuery"
+             
+ },
+            { 
+
+              "file": "/var/www/packly-admin-panel/app/Http/Middleware/ApiDebugbar.php",
+              "line": 39,
+              "method": "logQuery"
+             
+ }
+          
+]
+        
+ },
+        { 
+
+          "sql": "select * from `attribute_options` where `attribute_options`.`id` = ? limit 1",
+          "count": 12,
+          "locations": [
+
+            { 
+
+              "file": "/var/www/packly-admin-panel/app/Http/Middleware/ApiDebugbar.php",
+              "line": 39,
+              "method": "logQuery"
+             
+ },
+            { 
+
+              "file": "/var/www/packly-admin-panel/app/Http/Middleware/ApiDebugbar.php",
+              "line": 39,
+              "method": "logQuery"
+             
+ },
+            { 
+
+              "file": "/var/www/packly-admin-panel/app/Http/Middleware/ApiDebugbar.php",
+              "line": 39,
+              "method": "logQuery"
+             
+ }
+          
+]
+        
+ }
+      
+]
+    
+ },
+    "queries": [
+
+      { 
+
+        "sql": "SELECT `id`, `name`, `category_id`, `product_type_id`, `category_id`, `sub_category_id`, `sub_category_child_id`, `brand_id`, `slug`, `description`, `merchant_id`, `total_stock_qty` FROM `products` WHERE `slug` = ? and `status` = ? and exists (SELECT * FROM `shop_products` WHERE `products`.`id` = `shop_products`.`product_id` and `status` = ? and `active_status` = ?) LIMIT 1",
+        "bindings": [
+
+          "iphone-15-plus",
+          1,
+          2,
+          1
+        
+],
+        "time": "1.43ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT `id`, `product_id`, `regular_price`, `discount_price`, `default_variation_id`, `e_price`, `e_discount_price`, `id_delivery_fee`, `od_delivery_fee`, `ed_delivery_fee` FROM `product_details` WHERE `product_details`.`product_id` in (4)",
+        "bindings": [
+],
+        "time": "0.71ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT `id`, `sku`, `regular_price`, `discount_price`, `id_delivery_fee`, `od_delivery_fee`, `ed_delivery_fee` FROM `product_variations` WHERE `product_variations`.`id` in (1)",
+        "bindings": [
+],
+        "time": "0.49ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `product_variations` WHERE `product_variations`.`product_id` in (4)",
+        "bindings": [
+],
+        "time": "0.72ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `variation_attributes` WHERE `variation_attributes`.`product_variation_id` in (1, 2, 3, 4, 5, 6)",
+        "bindings": [
+],
+        "time": "0.8ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attributes` WHERE `attributes`.`id` in (9, 11)",
+        "bindings": [
+],
+        "time": "0.5ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attribute_options` WHERE `attribute_options`.`id` in (52, 53, 54, 67, 68)",
+        "bindings": [
+],
+        "time": "0.55ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT `id`, `shop_name`, `slug` FROM `packly`.`merchants` WHERE `packly`.`merchants`.`id` in (3)",
+        "bindings": [
+],
+        "time": "0.44ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT `sso`.`users`.*, `packly`.`merchant_follower`.`merchant_id` as `pivot_merchant_id`, `packly`.`merchant_follower`.`user_id` as `pivot_user_id` FROM `sso`.`users` INNER JOIN `packly`.`merchant_follower` on `sso`.`users`.`id` = `packly`.`merchant_follower`.`user_id` WHERE `packly`.`merchant_follower`.`merchant_id` in (3)",
+        "bindings": [
+],
+        "time": "0.74ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `brands` WHERE `brands`.`id` in (1)",
+        "bindings": [
+],
+        "time": "0.52ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT `value` FROM `merchant_settings` WHERE `merchant_id` = ? and `key` = ? LIMIT 1",
+        "bindings": [
+
+          3,
+          "logo"
+        
+],
+        "time": "0.62ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `stock_inventories` WHERE `stock_inventories`.`product_variation_id` = ? and `stock_inventories`.`product_variation_id` is not null LIMIT 1",
+        "bindings": [
+
+          1
+        
+],
+        "time": "0.65ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `stock_inventories` WHERE `stock_inventories`.`product_variation_id` = ? and `stock_inventories`.`product_variation_id` is not null LIMIT 1",
+        "bindings": [
+
+          2
+        
+],
+        "time": "0.54ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `stock_inventories` WHERE `stock_inventories`.`product_variation_id` = ? and `stock_inventories`.`product_variation_id` is not null LIMIT 1",
+        "bindings": [
+
+          3
+        
+],
+        "time": "0.48ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `stock_inventories` WHERE `stock_inventories`.`product_variation_id` = ? and `stock_inventories`.`product_variation_id` is not null LIMIT 1",
+        "bindings": [
+
+          4
+        
+],
+        "time": "0.56ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `stock_inventories` WHERE `stock_inventories`.`product_variation_id` = ? and `stock_inventories`.`product_variation_id` is not null LIMIT 1",
+        "bindings": [
+
+          5
+        
+],
+        "time": "0.58ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `stock_inventories` WHERE `stock_inventories`.`product_variation_id` = ? and `stock_inventories`.`product_variation_id` is not null LIMIT 1",
+        "bindings": [
+
+          6
+        
+],
+        "time": "0.49ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `media` WHERE `media`.`model_type` = ? and `media`.`model_id` = ? and `media`.`model_id` is not null",
+        "bindings": [
+
+          "App\\Models\\Product",
+          4
+        
+],
+        "time": "0.54ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `reviews` WHERE `reviews`.`product_id` = ? and `reviews`.`product_id` is not null",
+        "bindings": [
+
+          4
+        
+],
+        "time": "0.48ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `products` WHERE `products`.`merchant_id` in (3)",
+        "bindings": [
+],
+        "time": "0.56ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `reviews` WHERE `reviews`.`product_id` in (1, 2, 3, 4, 6, 7, 8, 9, 10)",
+        "bindings": [
+],
+        "time": "0.58ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `product_variations` WHERE `product_variations`.`product_id` = ? and `product_variations`.`product_id` is not null and `e_price` > ? and `total_stock_qty` > ? and `status` = ?",
+        "bindings": [
+
+          4,
+          0,
+          0,
+          1
+        
+],
+        "time": "0.88ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `variation_attributes` WHERE `product_variation_id` in (?, ?, ?, ?, ?, ?) ORDER BY `attribute_id` asc",
+        "bindings": [
+
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        
+],
+        "time": "0.82ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attribute_options` WHERE `attribute_options`.`id` in (52, 53, 54, 67, 68)",
+        "bindings": [
+],
+        "time": "0.59ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attributes` WHERE `attributes`.`id` in (9, 11)",
+        "bindings": [
+],
+        "time": "0.4ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `product_variations` WHERE `product_variations`.`id` in (1, 2, 3, 4, 5, 6)",
+        "bindings": [
+],
+        "time": "0.61ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `media` WHERE `media`.`model_id` in (1, 2, 3, 4, 5, 6) and `media`.`model_type` = ?",
+        "bindings": [
+
+          "App\\Models\\ProductVariation"
+        
+],
+        "time": "0.68ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT `badges`.*, `badge_products`.`product_id` as `pivot_product_id`, `badge_products`.`badge_id` as `pivot_badge_id` FROM `badges` INNER JOIN `badge_products` on `badges`.`id` = `badge_products`.`badge_id` WHERE `badge_products`.`product_id` = ? and `status` = ?",
+        "bindings": [
+
+          4,
+          1
+        
+],
+        "time": "0.85ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT `badge_product_variations`.*, `badge_products`.`product_id` as `laravel_through_key` FROM `badge_product_variations` INNER JOIN `badge_products` on `badge_products`.`id` = `badge_product_variations`.`badge_product_id` WHERE `badge_products`.`product_id` = ?",
+        "bindings": [
+
+          4
+        
+],
+        "time": "0.65ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT count(*) as aggregate FROM `product_comments` WHERE `product_comments`.`product_id` = ? and `product_comments`.`product_id` is not null and `reply` is not null",
+        "bindings": [
+
+          4
+        
+],
+        "time": "0.75ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `shop_product_variations` WHERE `shop_product_variations`.`product_variation_id` = ? and `shop_product_variations`.`product_variation_id` is not null LIMIT 1",
+        "bindings": [
+
+          1
+        
+],
+        "time": "0.57ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `media` WHERE `media`.`model_type` = ? and `media`.`model_id` = ? and `media`.`model_id` is not null",
+        "bindings": [
+
+          "App\\Models\\ProductVariation",
+          1
+        
+],
+        "time": "0.59ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `variation_attributes` WHERE `variation_attributes`.`product_variation_id` = ? and `variation_attributes`.`product_variation_id` is not null",
+        "bindings": [
+
+          1
+        
+],
+        "time": "0.52ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `shop_product_variations` WHERE `shop_product_variations`.`product_variation_id` = ? and `shop_product_variations`.`product_variation_id` is not null LIMIT 1",
+        "bindings": [
+
+          2
+        
+],
+        "time": "0.52ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `media` WHERE `media`.`model_type` = ? and `media`.`model_id` = ? and `media`.`model_id` is not null",
+        "bindings": [
+
+          "App\\Models\\ProductVariation",
+          2
+        
+],
+        "time": "0.56ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `variation_attributes` WHERE `variation_attributes`.`product_variation_id` = ? and `variation_attributes`.`product_variation_id` is not null",
+        "bindings": [
+
+          2
+        
+],
+        "time": "0.51ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `shop_product_variations` WHERE `shop_product_variations`.`product_variation_id` = ? and `shop_product_variations`.`product_variation_id` is not null LIMIT 1",
+        "bindings": [
+
+          3
+        
+],
+        "time": "0.49ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `media` WHERE `media`.`model_type` = ? and `media`.`model_id` = ? and `media`.`model_id` is not null",
+        "bindings": [
+
+          "App\\Models\\ProductVariation",
+          3
+        
+],
+        "time": "0.51ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `variation_attributes` WHERE `variation_attributes`.`product_variation_id` = ? and `variation_attributes`.`product_variation_id` is not null",
+        "bindings": [
+
+          3
+        
+],
+        "time": "0.47ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `shop_product_variations` WHERE `shop_product_variations`.`product_variation_id` = ? and `shop_product_variations`.`product_variation_id` is not null LIMIT 1",
+        "bindings": [
+
+          4
+        
+],
+        "time": "0.54ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `media` WHERE `media`.`model_type` = ? and `media`.`model_id` = ? and `media`.`model_id` is not null",
+        "bindings": [
+
+          "App\\Models\\ProductVariation",
+          4
+        
+],
+        "time": "0.53ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `variation_attributes` WHERE `variation_attributes`.`product_variation_id` = ? and `variation_attributes`.`product_variation_id` is not null",
+        "bindings": [
+
+          4
+        
+],
+        "time": "0.5ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `shop_product_variations` WHERE `shop_product_variations`.`product_variation_id` = ? and `shop_product_variations`.`product_variation_id` is not null LIMIT 1",
+        "bindings": [
+
+          5
+        
+],
+        "time": "0.48ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `media` WHERE `media`.`model_type` = ? and `media`.`model_id` = ? and `media`.`model_id` is not null",
+        "bindings": [
+
+          "App\\Models\\ProductVariation",
+          5
+        
+],
+        "time": "0.53ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `variation_attributes` WHERE `variation_attributes`.`product_variation_id` = ? and `variation_attributes`.`product_variation_id` is not null",
+        "bindings": [
+
+          5
+        
+],
+        "time": "0.49ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `shop_product_variations` WHERE `shop_product_variations`.`product_variation_id` = ? and `shop_product_variations`.`product_variation_id` is not null LIMIT 1",
+        "bindings": [
+
+          6
+        
+],
+        "time": "0.51ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `media` WHERE `media`.`model_type` = ? and `media`.`model_id` = ? and `media`.`model_id` is not null",
+        "bindings": [
+
+          "App\\Models\\ProductVariation",
+          6
+        
+],
+        "time": "0.52ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `variation_attributes` WHERE `variation_attributes`.`product_variation_id` = ? and `variation_attributes`.`product_variation_id` is not null",
+        "bindings": [
+
+          6
+        
+],
+        "time": "0.49ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attributes` WHERE `attributes`.`id` = ? LIMIT 1",
+        "bindings": [
+
+          11
+        
+],
+        "time": "0.44ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attribute_options` WHERE `attribute_options`.`id` = ? LIMIT 1",
+        "bindings": [
+
+          67
+        
+],
+        "time": "0.4ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attributes` WHERE `attributes`.`id` = ? LIMIT 1",
+        "bindings": [
+
+          9
+        
+],
+        "time": "0.42ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attribute_options` WHERE `attribute_options`.`id` = ? LIMIT 1",
+        "bindings": [
+
+          52
+        
+],
+        "time": "0.53ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attributes` WHERE `attributes`.`id` = ? LIMIT 1",
+        "bindings": [
+
+          11
+        
+],
+        "time": "0.45ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attribute_options` WHERE `attribute_options`.`id` = ? LIMIT 1",
+        "bindings": [
+
+          67
+        
+],
+        "time": "0.46ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attributes` WHERE `attributes`.`id` = ? LIMIT 1",
+        "bindings": [
+
+          9
+        
+],
+        "time": "0.49ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attribute_options` WHERE `attribute_options`.`id` = ? LIMIT 1",
+        "bindings": [
+
+          53
+        
+],
+        "time": "0.53ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attributes` WHERE `attributes`.`id` = ? LIMIT 1",
+        "bindings": [
+
+          11
+        
+],
+        "time": "0.49ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attribute_options` WHERE `attribute_options`.`id` = ? LIMIT 1",
+        "bindings": [
+
+          67
+        
+],
+        "time": "0.47ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attributes` WHERE `attributes`.`id` = ? LIMIT 1",
+        "bindings": [
+
+          9
+        
+],
+        "time": "0.58ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attribute_options` WHERE `attribute_options`.`id` = ? LIMIT 1",
+        "bindings": [
+
+          54
+        
+],
+        "time": "0.5ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attributes` WHERE `attributes`.`id` = ? LIMIT 1",
+        "bindings": [
+
+          11
+        
+],
+        "time": "0.44ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attribute_options` WHERE `attribute_options`.`id` = ? LIMIT 1",
+        "bindings": [
+
+          68
+        
+],
+        "time": "0.53ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attributes` WHERE `attributes`.`id` = ? LIMIT 1",
+        "bindings": [
+
+          9
+        
+],
+        "time": "0.48ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attribute_options` WHERE `attribute_options`.`id` = ? LIMIT 1",
+        "bindings": [
+
+          52
+        
+],
+        "time": "0.55ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attributes` WHERE `attributes`.`id` = ? LIMIT 1",
+        "bindings": [
+
+          11
+        
+],
+        "time": "0.51ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attribute_options` WHERE `attribute_options`.`id` = ? LIMIT 1",
+        "bindings": [
+
+          68
+        
+],
+        "time": "0.54ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attributes` WHERE `attributes`.`id` = ? LIMIT 1",
+        "bindings": [
+
+          9
+        
+],
+        "time": "0.54ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attribute_options` WHERE `attribute_options`.`id` = ? LIMIT 1",
+        "bindings": [
+
+          53
+        
+],
+        "time": "0.48ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attributes` WHERE `attributes`.`id` = ? LIMIT 1",
+        "bindings": [
+
+          11
+        
+],
+        "time": "0.55ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attribute_options` WHERE `attribute_options`.`id` = ? LIMIT 1",
+        "bindings": [
+
+          68
+        
+],
+        "time": "0.5ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attributes` WHERE `attributes`.`id` = ? LIMIT 1",
+        "bindings": [
+
+          9
+        
+],
+        "time": "0.45ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ },
+      { 
+
+        "sql": "SELECT * FROM `attribute_options` WHERE `attribute_options`.`id` = ? LIMIT 1",
+        "bindings": [
+
+          54
+        
+],
+        "time": "0.56ms",
+        "source": { 
+
+          "file": "/app/Http/Middleware/ApiDebugbar.php",
+          "line": 39,
+          "method": "logQuery"
+        
+ }
+      
+ }
+    
+]
+  
+ }
+ }

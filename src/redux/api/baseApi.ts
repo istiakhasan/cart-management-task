@@ -1,10 +1,10 @@
 import { axiosBaseQuery } from '@/helpers/axios/axiosBaseQuery'
 import { getBaseUrl } from '@/helpers/config/envConfig'
-import { createApi } from '@reduxjs/toolkit/query/react'
+import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 import { tagTypesList } from '../tag-types'
 export const baseApi = createApi({
   reducerPath: 'api',
-  baseQuery: axiosBaseQuery({ baseUrl: getBaseUrl() }),
+  baseQuery: fetchBaseQuery({ baseUrl: 'https://stead-fast-gold.vercel.app/api/' }),
     endpoints: () => ({}),
   tagTypes: tagTypesList
 })
