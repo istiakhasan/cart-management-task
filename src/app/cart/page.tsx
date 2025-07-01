@@ -4,6 +4,7 @@ import SubHeader from "@/components/SbHeader";
 import SFHeader from "@/components/SFHeader";
 import React from "react";
 import Cart from "./_compoent/CartPage";
+import Footer from "@/components/Footer";
 
 const Page = () => {
   return (
@@ -17,6 +18,10 @@ const Page = () => {
       </SbBreadcam>
 
       <Cart />
+
+     <div className="mt-[122px]">
+        <Footer />
+     </div>
     </div>
   );
 };

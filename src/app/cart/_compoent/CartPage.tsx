@@ -70,7 +70,7 @@ const Cart = () => {
 
                 <div className="flex-1 flex">
                   <img
-                    src={item?.data?.thumbnail}
+                    src={`/api/image?url=${item?.data?.thumbnail}`}
                     alt=""
                     width={100}
                     height={100}

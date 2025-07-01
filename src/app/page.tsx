@@ -1,4 +1,5 @@
 "use client";
+import Footer from "@/components/Footer";
 import ProductInfo from "@/components/ProductInfoCard";
 import SbBreadcam from "@/components/SbBreadcam";
 import SubHeader from "@/components/SbHeader";
@@ -18,6 +19,9 @@ export default function Home() {
       </SbBreadcam>
       <ProductPage />
       <ProductInfo />
+     <div className="mt-[105px]">
+       <Footer />
+     </div>
     </div>
   );
 }

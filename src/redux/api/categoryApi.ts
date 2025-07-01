@@ -3,7 +3,6 @@ import { baseApi } from "./baseApi";
 
 export const categoryApi = baseApi.injectEndpoints({
   endpoints: (build) => ({
-
     getCategories: build.query({
       query: (data) => ({
         url: "/categories",

@@ -62,20 +62,20 @@ const ProductPage = () => {
             <div className="lg:flex flex-col ">
               <div className=" min-h-[380px] lg:w-[380px]   rounded-lg  ">
                 <img
-                  src={selectThumbnail || product?.thumbnail}
+                  src={`/api/image?url=${selectThumbnail || product?.thumbnail}`}
                   alt="Men's Casual Shirt"
                   className="w-[100%] h-full  object-contain rounded-md"
                 />
               </div>
               <div className="lg:flex  mt-4 gap-[8px]">
-                {(false?data?.data?.images : SingleProductJson?.data?.images)?.map((item:any, i:any) => (
+                {data?.data?.images?.map((item:any, i:any) => (
                   <div 
                    onClick={()=>setSelectedThumbnail(item?.url)}
                     key={i}
                     className="w-[68px] border border-gray-300 overflow-hidden h-[68px] bg-gray-100 rounded-[5px]  cursor-pointer  hover:border-blue-500"
                   >
                     <img
-                      src={item?.url}
+                      src={`/api/image?url=${item?.url}`}
                       alt={`Thumbnail ${i + 1}`}
                       className="w-full h-full object-cover rounded-sm"
                     />
@@ -157,7 +157,7 @@ const ProductPage = () => {
                           }`}
                         >
                           <img
-                            src={item?.image}
+                            src={`/api/image?url=${item?.image}`}
                             alt=""
                             className="h-full w-full"
                           />
