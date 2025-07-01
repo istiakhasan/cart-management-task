@@ -3,7 +3,7 @@ import type { AxiosRequestConfig, AxiosError } from 'axios';
 import axios from 'axios';
 import { instance } from './axiosInstance';
 
-const axiosInstance = axios.create(); // Customize if needed
+const axiosInstance = axios.create(); 
 
 export const axiosBaseQuery =
   ({ baseUrl }: { baseUrl: string } = { baseUrl: '' }): BaseQueryFn<

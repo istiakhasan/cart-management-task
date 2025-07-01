@@ -4,8 +4,6 @@ import SbBreadcam from "@/components/SbBreadcam";
 import SubHeader from "@/components/SbHeader";
 import SFHeader from "@/components/SFHeader";
 import ProductPage from "@/components/SFProductDetails";
-import { getUserInfo } from "@/service/authService";
-import { redirect } from "next/navigation";
 export default function Home() {
   return (
     <div>

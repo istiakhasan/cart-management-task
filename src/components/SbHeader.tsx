@@ -1,6 +1,10 @@
 "use client"
 import { useGetCategoriesQuery } from "@/redux/api/categoryApi";
 import { useState } from "react";
+import TrachOrder from '../assets/trackOrder.png'
+import HelpCustoemr from '../assets/help.png'
+import HelpUs from '../assets/helpUs.png'
+import Image from "next/image";
 const SubHeader = () => {
   const { data, isLoading } = useGetCategoriesQuery(undefined);
   const [active,setActive]=useState(false)
@@ -16,7 +20,7 @@ const SubHeader = () => {
         }} className="flex items-center relative text-black font-semibold">
           <i className="ri-menu-line mr-2 text-teal-500"></i>
           Categories
-         {active && <span className="inline-block max-h-500 overflow-auto w-[300px] p-[20px] bg-white shadow-xl absolute left-0 top-[110%]">
+         {active && <span className="inline-block max-h-500 overflow-auto w-[300px] p-[20px] bg-white shadow-xl z-50 absolute left-0 top-[110%]">
           
           {
             data?.data?.map((item:any)=>(
@@ -32,15 +36,15 @@ const SubHeader = () => {
 
       <div className="flex items-center flex-wrap space-x-6 text-[8px] md:text-[14px] text-gray-500">
         <button className="flex items-center whitespace-nowrap hover:text-black">
-          <i className="ri-truck-line mr-1 text-base"></i>
+          <Image className="mr-[8px]" alt="" src={TrachOrder}/>
           TRACK ORDER
         </button>
         <button className="flex items-center whitespace-nowrap hover:text-black">
-          <i className="ri-question-line mr-1 text-base"></i>
+           <Image className="mr-[8px]" alt="" src={HelpCustoemr}/>
           HELP CENTER
         </button>
         <button className="flex items-center whitespace-nowrap text-teal-500 font-medium hover:text-teal-600">
-          <i className="ri-store-2-line mr-1 text-base"></i>
+          <Image className="mr-[8px]" alt="" src={HelpUs}/>
           SELL WITH US
         </button>
       </div>

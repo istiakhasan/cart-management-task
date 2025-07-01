@@ -8,8 +8,8 @@ import 'react-confirm-alert/src/react-confirm-alert.css';
 import 'react-quill/dist/quill.snow.css';
 const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
-  title: "OMT PPM",
-  description: "Enterprise resource planning software for Ghorer Bazar"
+  title: "Product Details Project",
+  description: "SteadFast cart e-commerce"
 };
 
 export default function RootLayout({

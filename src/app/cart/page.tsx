@@ -13,7 +13,7 @@ const Page = () => {
       <SbBreadcam>
         <h1 className="text-[#0F172A] text-[14px] ">Home</h1>
         <i className="ri-arrow-right-s-line text-[18px]"></i>
-        <h1 className="text-[#0F172A] text-[14px] ">My Cart</h1>
+        <h1 className="text-[#475569] text-[14px] ">My Cart</h1>
       </SbBreadcam>
 
       <Cart />
